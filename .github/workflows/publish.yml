@@ -8,7 +8,7 @@ on:
       - 'v*'  # Ensures action is only run on tagged commits
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -26,6 +26,6 @@ jobs:
         run: npm run build  # Or any other command that prepares your package for publication
       
       - name: Publish to npm
-        run: npm publish
+        run: npm publish --access publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
