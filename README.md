@@ -20,24 +20,28 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. **Clone the repo**
+**Clone the repo**
 
-   ```sh
+ ```
    git clone https://github.com/<your-github-username>/<repository-name>.git
-    ```
-2. **Navigate to the project directory**
-  ```sh
-   cd <repository-name>
-    ```
-3. **Install NPM packages**
+ ```
+**Navigate to the project directory**
 
-   ```sh
+ ```
+   cd <repository-name>
+ ```
+**Install NPM packages**
+
+ ```
    npm install
-    ```
-2. **Start the development server**
-  ```sh
+ ```
+
+**Start the development server**
+
+ ```
    npm start
-    ```
+ ```
+
 This runs the app in the development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
 ### Usage
@@ -61,6 +65,6 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ### Contact
 
-Dtractus - @dtractus - dtractus@gmail.com
+Dtractus - x.com/dtractus - dtractus@gmail.com
 
 Project Link: https://github.com/dtractus/YourLifeInOneApp
