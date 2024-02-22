@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ToDoList from './components/ToDoList/ToDoList';
+import TaskManager from './components/TaskManager/TaskManager';
+import Agenda from './components/Agenda/Agenda';
+import EventPlanner from './components/EventPlanner/EventPlanner';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/todo-list" component={ToDoList} />
+        <Route path="/task-manager" component={TaskManager} />
+        <Route path="/agenda" component={Agenda} />
+        <Route path="/event-planner" component={EventPlanner} />
+        <Route path="/" exact component={ToDoList} />
+      </Switch>
+    </Router>
   );
 }
 

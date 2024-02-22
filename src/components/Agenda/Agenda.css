@@ -1,0 +1,18 @@
+/* src/components/Agenda/Agenda.css */
+.agenda-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.agenda-item {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.agenda-item:last-child {
+  border-bottom: none;
+}
