@@ -2,9 +2,8 @@
 ---
 version: 1.0.0
 nick: Dtractus
-projectName: Tea
-website: https://tea.xyz/
+projectName: your-life-in-one-app
 github: https://github.com/dtractus
 codeOwners:
-  - '0x84Ba5f2e5aC855E9B732B8e8748C441fD5C54086'
+  - '0x42E4e47E8aF58B052c308a25606380dcDE61639D'
 quorum: 1
