@@ -1,6 +1,6 @@
 {
   "name": "your-life-in-one-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive solution for managing your daily tasks, events, and schedules, built with React.",
   "main": "src/index.js",
   "dependencies": {
