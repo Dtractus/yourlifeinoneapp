@@ -1,6 +1,6 @@
 {
   "name": "your-life-in-one-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A comprehensive solution for managing your daily tasks, events, and schedules, built with React.",
   "main": "src/index.js",
   "dependencies": {
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/Dtractus/yourlifeinoneapp/issues"
   },
-  "homepage": "https://github.com/Dtractus/yourlifeinoneapp#readme",
+  "homepage": "https://github.com/Dtractus/yourlifeinoneapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
