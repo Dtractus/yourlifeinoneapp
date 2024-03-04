@@ -1,0 +1,15 @@
+/* src/components/NotFound.css */
+.not-found-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found-title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.not-found-text {
+  font-size: 1rem;
+  color: #666;
+}
