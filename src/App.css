@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear; /* Updated animation speed */
   }
 }
 
@@ -22,10 +22,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* New shadow for depth */
+  font-family: 'Arial', sans-serif; /* Updated font style */
 }
 
 .App-link {
   color: #61dafb;
+  transition: color 0.5s ease, text-decoration 0.5s ease; /* Smooth transition for hover effect */
+}
+
+.App-link:hover {
+  color: #fff; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
 }
 
 @keyframes App-logo-spin {
