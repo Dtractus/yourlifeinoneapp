@@ -5,6 +5,7 @@ import ToDoList from './components/ToDoList/ToDoList';
 import TaskManager from './components/TaskManager/TaskManager';
 import Agenda from './components/Agenda/Agenda';
 import EventPlanner from './components/EventPlanner/EventPlanner';
+import NotFound from './components/NotFound'; // Assuming you have a NotFound component
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/agenda" component={Agenda} />
         <Route path="/event-planner" component={EventPlanner} />
         <Route path="/" exact component={ToDoList} />
+        <Route component={NotFound} /> {/* Handle unmatched routes */}
       </Switch>
     </Router>
   );
