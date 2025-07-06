@@ -4,7 +4,7 @@ Welcome to the Personal Organizer App, a comprehensive solution for managing you
 
 ## Features
 
-- **To-Do List**: Keep track of your daily tasks with ease.
+- **To-Do List**: Keep track of your daily tasks with ease
 - **Task Manager**: Manage your tasks with detailed descriptions and priorities.
 - **Agenda**: View your daily agenda at a glance.
 - **Event Planner**: Plan your events with a built-in calendar and reminder system.
